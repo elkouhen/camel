@@ -40,7 +40,7 @@ public class DynamicListTest extends CamelTestSupport {
         };
     }
 
-    @Ignore
+    //@Ignore
     @Test
     public void test1() throws Exception {
 
