@@ -1,15 +1,14 @@
 package com.mycompany.elkouhen.camel;
 
+import com.mycompany.elkouhen.camel.util.MyRouter;
 import org.apache.camel.CamelContext;
 import org.apache.camel.EndpointInject;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.mock.MockEndpoint;
 import org.apache.camel.test.junit4.CamelTestSupport;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import com.mycompany.elkouhen.camel.util.MyRouter;
-import org.junit.Ignore;
 
 public class DynamicListTest extends CamelTestSupport {
 

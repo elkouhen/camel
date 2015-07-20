@@ -13,7 +13,7 @@
         </dependency>
         <dependency>
             <groupId>org.apache.camel</groupId>
-            <artifactId>camel-test</artifactId>
+            <artifactId>camel-test-spring40</artifactId>
             <version>${camel-version}</version>
         </dependency>
         <dependency>
@@ -28,9 +28,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>camel-java</finalName>
         <plugins>
-            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>

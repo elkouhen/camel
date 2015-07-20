@@ -35,7 +35,7 @@ public class AggregateTest extends CamelTestSupport {
 
                     @Override
                     public Exchange aggregate(Exchange oldExchange,
-                            Exchange newExchange) {
+                                              Exchange newExchange) {
 
                         if (oldExchange == null) {
                             return newExchange;

@@ -5,7 +5,6 @@ import org.apache.camel.EndpointInject;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.mock.MockEndpoint;
 import org.apache.camel.test.junit4.CamelTestSupport;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -39,7 +38,7 @@ public class LoadBalancerTest extends CamelTestSupport {
         };
     }
 
-    
+
     @Test
     public void test() throws Exception {
 

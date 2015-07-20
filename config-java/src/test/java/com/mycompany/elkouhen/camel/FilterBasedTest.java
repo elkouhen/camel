@@ -31,7 +31,7 @@ public class FilterBasedTest extends CamelTestSupport {
 
                 from("direct://myqueue").filter(
                         body().isEqualTo("send to endpoint1")).to(
-                                "mock:result1");
+                        "mock:result1");
             }
         };
     }
